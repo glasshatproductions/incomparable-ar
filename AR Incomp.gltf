@@ -1,0 +1,352 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - cdc338cffdd2c082944abe2ab6df7d393748a84d",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 3240,
+            "type": "VEC3",
+            "max": [
+                0.6536157727241516,
+                2.7671215534210207,
+                0.8526080250740051
+            ],
+            "min": [
+                -0.6536157727241516,
+                9.999999406318239e-8,
+                -0.8526080846786499
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 3240,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 3240,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 3240,
+            "type": "SCALAR",
+            "max": [
+                3239.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 38880,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 38880,
+            "byteLength": 38880,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 77760,
+            "byteLength": 25920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 103680,
+            "byteLength": 12960,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 116640,
+            "uri": "AR Incomp_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00004158516458119266,
+                "yfov": 0.5753211975097656,
+                "zfar": 2.287184000015259,
+                "aspectRatio": 1.399999976158142
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        },
+        {
+            "perspective": {
+                "znear": 0.00004158516458119266,
+                "yfov": 0.5753211975097656,
+                "zfar": 2.287184000015259,
+                "aspectRatio": 1.399999976158142
+            },
+            "type": "perspective",
+            "name": "render_camera3"
+        },
+        {
+            "perspective": {
+                "znear": 0.00004158516458119266,
+                "yfov": 0.5753211975097656,
+                "zfar": 2.287184000015259,
+                "aspectRatio": 1.399999976158142
+            },
+            "type": "perspective",
+            "name": "render_camera4"
+        },
+        {
+            "perspective": {
+                "znear": 0.00004158516458119266,
+                "yfov": 0.5753211975097656,
+                "zfar": 2.287184000015259,
+                "aspectRatio": 1.399999976158142
+            },
+            "type": "perspective",
+            "name": "render_camera5"
+        },
+        {
+            "perspective": {
+                "znear": 0.00004158516458119266,
+                "yfov": 0.5753211975097656,
+                "zfar": 2.287184000015259,
+                "aspectRatio": 1.399999976158142
+            },
+            "type": "perspective",
+            "name": "render_camera6"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.9734445810317993,
+                    0.7835373878479004,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Glass 2",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.0362725667655468,
+                0.00405355216935277,
+                -0.016745077446103097
+            ],
+            "rotation": [
+                -0.02771705761551857,
+                0.12006265670061112,
+                0.2911529242992401,
+                0.9487078785896301
+            ],
+            "scale": [
+                0.15498460829257966,
+                0.15498459339141847,
+                0.15498453378677369
+            ],
+            "mesh": 0,
+            "name": "Incomp"
+        },
+        {
+            "name": "60th plat"
+        },
+        {
+            "translation": [
+                0.12321490049362183,
+                0.18183299899101258,
+                2.9802318946003938e-10
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -0.7071067690849304,
+                0.7071067690849304
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999998807907105
+            ],
+            "name": "incom+years 2"
+        },
+        {
+            "translation": [
+                1.8621690273284913,
+                1.705228328704834,
+                0.11978910118341446
+            ],
+            "rotation": [
+                -0.25328564643859866,
+                0.6418641209602356,
+                0.23782497644424439,
+                0.6835905909538269
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "name": "Group 3"
+        },
+        {
+            "name": "PGC"
+        },
+        {
+            "translation": [
+                1.2503410577774048,
+                0.048362988978624347,
+                0.24212680757045747
+            ],
+            "rotation": [
+                0.04950258135795593,
+                0.6386006474494934,
+                -0.04122435301542282,
+                0.7668371796607971
+            ],
+            "scale": [
+                0.9999998807907105,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 1,
+            "name": "View 1"
+        },
+        {
+            "translation": [
+                1.0514029264450074,
+                0.07439873367547989,
+                0.12472940236330033
+            ],
+            "rotation": [
+                0.04497421160340309,
+                0.6559433341026306,
+                -0.03920603543519974,
+                0.752448320388794
+            ],
+            "camera": 2,
+            "name": "View 2"
+        },
+        {
+            "translation": [
+                1.4042640924453736,
+                0.04097025841474533,
+                0.17938289046287538
+            ],
+            "rotation": [
+                0.04265991970896721,
+                0.6545185446739197,
+                -0.03703474625945091,
+                0.7539323568344116
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "camera": 3,
+            "name": "View 3"
+        },
+        {
+            "translation": [
+                1.4205830097198487,
+                0.32754650712013247,
+                0.031134428456425668
+            ],
+            "rotation": [
+                -0.04944425821304321,
+                0.6947295665740967,
+                0.04797785356640816,
+                0.7159638404846191
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0000001192092896
+            ],
+            "camera": 4,
+            "name": "View 4"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp": {
+            "@context": {
+                "dc": "http://purl.org/dc/elements/1.1/"
+            },
+            "packets": [
+                {
+                    "dc:date": "2022-08-08T12:06:28.543-04:00",
+                    "dc:format": "model/gltf+json",
+                    "dc:title": "AR Incomp.dn",
+                    "xmp:CreatorTool": "Adobe Dimension"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp"
+    ]
+}
