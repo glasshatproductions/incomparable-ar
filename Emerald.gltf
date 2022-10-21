@@ -1,0 +1,280 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - cdc338cffdd2c082944abe2ab6df7d393748a84d",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 430,
+            "type": "VEC3",
+            "max": [
+                0.044199999421834949,
+                0.12282299995422363,
+                0.12973259389400483
+            ],
+            "min": [
+                -0.044199999421834949,
+                0.005968999583274126,
+                0.059720996767282489
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 430,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 430,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 942,
+            "type": "SCALAR",
+            "max": [
+                429.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 14385,
+            "type": "VEC3",
+            "max": [
+                0.10059049725532532,
+                0.12604780495166779,
+                0.1261826902627945
+            ],
+            "min": [
+                -0.10059049725532532,
+                0.0,
+                -0.12973259389400483
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 14385,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 14385,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 67272,
+            "type": "SCALAR",
+            "max": [
+                14384.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 5160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5160,
+            "byteLength": 5160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10320,
+            "byteLength": 3440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13760,
+            "byteLength": 3768,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 17528,
+            "byteLength": 172620,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 190148,
+            "byteLength": 172620,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 362768,
+            "byteLength": 115080,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 477848,
+            "byteLength": 269088,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 746936,
+            "uri": "Emerald_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9900000095367432,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Glass 2",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    1.0
+                ],
+                "roughnessFactor": 0.02199999988079071
+            },
+            "name": "Metal 2",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Diamond_Emerald 3",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "object_1 6",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.8314899802207947,
+                0.29999998211860659,
+                0.5259686708450317
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                0.0004619598330464214,
+                0.0,
+                -0.00014151095820125192
+            ],
+            "rotation": [
+                0.0,
+                0.008726553991436959,
+                0.0,
+                0.9999619126319885
+            ],
+            "scale": [
+                0.9037665128707886,
+                0.903766930103302,
+                0.9037666916847229
+            ],
+            "name": "5ctEmSol"
+        },
+        {
+            "mesh": 0,
+            "name": "Diamond_Emerald 3"
+        },
+        {
+            "mesh": 1,
+            "name": "object_1 6"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
